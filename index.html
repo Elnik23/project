@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div>
-      <ul>
+    <div class="head">
+      <ul class="main_menu">
         <li><img src="img/png-clipart-computer-icons-system-symbol-icon-information-miscellaneous-angle.png" alt="alt">
         </li>
         <li><a href="#">Home</a></li>
@@ -26,21 +26,27 @@
         <li>CHANGE PASSWORD</li>
       </ul>
     </div>
-    <form action="#" method="post"><input type="file" id="file"/></form>
-    <form action="#" method="post">
-      <input type="text" id="text1" />
-      <input type="text" id="text2" />
-      <input type="text" id="text3" />
-      <input type="text" id="text4"/>
-      <input type="text" id="text5"/>
-      <input type="text" id="text6"/>
-      <button id="button1">Save changes</button>
-    </form>
-    <form action="#" method="post">
-      <input type="password" id="password1"/>
-      <input type="password"  id="password2"/>
-      <input type="password"  id="password3"/>
-      <button id="button2">Change password</button>
-    </form>
+    <div class="main">
+      <form action="#" method="post"><div class="main3"><img src="img/av_256.png" alt="alt"> <button id="button">Choose photo</button></form></div>
+      <form action="#" method="post" id="form2">
+        <div class="main1">
+          <input type="text" id="text1" placeholder="First name"/>
+          <input type="text" id="text2" placeholder="Last name"/>
+          <input type="text" id="text3" placeholder="Email"/>
+          <input type="text" id="text4" placeholder="Phone number"/>
+          <input type="text" id="text5" placeholder="Adress"/>
+          <input type="text" id="text6" placeholder="FB link"/>
+          <button id="button1">Save changes</button>
+        </div>
+      </form>
+      <form action="#" method="post">
+        <div  class="main2">
+          <input type="password"  id="password2" placeholder="Old password"/>
+          <input type="password" id="password1" placeholder="New password"/>
+          <input type="password"  id="password3" placeholder="Repeat password"/>
+          <button id="button2">Change password</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
