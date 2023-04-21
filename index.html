@@ -13,7 +13,7 @@
         <li><img class="logo1" src="img/Screenshot_15.png" alt="alt">
         </li>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Homework</a></li>
+        <li><a href="https://github.com/Elnik23">Homework</a></li>
         <li><a href="#">Settings</a></li>
         <li><img src="img/av_64.png" alt="alt" /></li>
       </ul>
@@ -30,20 +30,20 @@
       <form action="#" method="post" id="form1"><div class="main3"><img src="img/av_256.png" alt="alt"> <button id="button">Choose photo</button></form></div>
       <form action="#" method="post" id="form2">
         <div class="main1">
-          <input type="text" id="text1" placeholder="First name"/>
-          <input type="text" id="text2" placeholder="Last name"/>
-          <input type="text" id="text3" placeholder="Email"/>
-          <input type="text" id="text4" placeholder="Phone number"/>
-          <input type="text" id="text5" placeholder="Adress"/>
-          <input type="text" id="text6" placeholder="FB link"/>
+          <input type="text" id="text1" maxlength="15" pattern="[a-zA-Z]" placeholder="First name"/>
+          <input type="text" id="text2" maxlength="15" pattern="[a-zA-Z]" placeholder="Last name"/>
+          <input type="email" id="text3" maxlength="20" placeholder="Email"/>
+          <input type="tel" id="text4" maxlength="13" pattern="[0-9]" placeholder="Phone number"/>
+          <input type="text" id="text5" maxlength="30" pattern="[0-9],[a-zA-Z]" placeholder="Adress"/>
+          <input type="text" id="text6" maxlength="20"  placeholder="FB link"/>
           <button id="button1">Save changes</button>
         </div>
       </form>
       <form action="#" method="post" id="form3">
         <div  class="main2">
-          <input type="password"  id="password2" placeholder="Old password"/>
-          <input type="password" id="password1" placeholder="New password"/>
-          <input type="password"  id="password3" placeholder="Repeat password"/>
+          <input type="password" maxlength="20" pattern="[0-9],[a-zA-Z]"  id="password2" placeholder="Old password"/>
+          <input type="password" maxlength="20" pattern="[0-9],[a-zA-Z]" id="password1" placeholder="New password"/>
+          <input type="password" maxlength="20" pattern="[0-9],[a-zA-Z]" id="password3" placeholder="Repeat password"/>
           <button id="button2">Change password</button>
         </div>
       </form>
